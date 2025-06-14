@@ -1,0 +1,16 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "sass": "sass src/styles/import.scss:src/styles/import.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

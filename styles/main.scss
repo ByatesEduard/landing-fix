@@ -1,0 +1,12 @@
+.main{
+  padding-block: 96px;
+  margin: 0 auto;
+   background-color: #1D1D1D;
+
+  @include content-padding-inline;
+
+  @include on-tablet{
+    padding-block: 120px;
+  }
+
+}

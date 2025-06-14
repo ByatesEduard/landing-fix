@@ -1,0 +1,15 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  background-color: #1D1D1D;
+}
+
+.product {
+ font-weight: bold;
+ grid-column: span 4;
+ 
+  &__photo {
+    width: 100%;
+  }
+}
